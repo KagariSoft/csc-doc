@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/kagaristyle@latest/dist/css/common.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/KagariSoft/KagariCSS@latest/dist/css/common.min.css"/>
 
 # Examples
 
@@ -55,20 +55,17 @@ This adjusts the width in percentages of the button
 By default the buttons are set to `inline-block`.
 
 <div class="example_inblock">
-    <button>Default</button>
+    <button class="kg__btn-block">Default</button>
     <button class="kg__btn kg__btn-primary kg__btn-block">Primary</button>
     <button class="kg__btn kg__btn-success kg__btn-block">Success</button>
     <button class="kg__btn kg__btn-warning kg__btn-block">Warning</button>
     <button class="kg__btn kg__btn-danger kg__btn-block">Danger</button>
 </div>
 
-## Laguage (jp)
-To set the Japanese language inside a button, you must use the `lang="ja"` attribute inside the button tag.
-
-<div class="example">
-    <button class="kg__btn kg__btn-primary" lang="ja">プライマリ</button>
-</div>
-
 ```html
-<button class="kg__btn kg__btn-primary" lang="ja">プライマリ</button>
+<button class="kg__btn-block">Default</button>
+<button class="kg__btn kg__btn-primary kg__btn-block">Primary</button>
+<button class="kg__btn kg__btn-success kg__btn-block">Success</button>
+<button class="kg__btn kg__btn-warning kg__btn-block">Warning</button>
+<button class="kg__btn kg__btn-danger kg__btn-block">Danger</button>
 ```
