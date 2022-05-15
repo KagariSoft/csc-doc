@@ -66,7 +66,7 @@ To see the list of labels compatible with the Style check [this list](language#t
 :::info
 Vertical text can also be used with the global font.
 :::
-### Rremove marging and padding 
+### Remove marging and padding 
 
 <div class="example dark__bg">
     <p class="kg__text kg__text-p__0 kg__text-m__0">HELLO WORLD</p>
