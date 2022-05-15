@@ -26,7 +26,7 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
-  plugins: [require.resolve('docusaurus-lunr-search')],
+  plugins: [require.resolve("docusaurus-lunr-search")],
   presets: [
     [
       "classic",
@@ -40,7 +40,6 @@ const config = {
               label: "Current",
             },
           },
-          
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -48,44 +47,49 @@ const config = {
       }),
     ],
   ],
-  themes: ['@docusaurus/theme-live-codeblock'],
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      navbar: {
-        title: "KagariSoft",
-        // logo: {
-        //   alt: "KagariSoft",
-        //   src: "img/logo.svg",
-        // },
-        items: [
-          {
-            type: "doc",
-            docId: "intro",
-            position: "left",
-            label: "Get Started",
-          },
-          {
-            type: "docsVersionDropdown",
-            position: "right",
-       
-            dropdownActiveClassDisabled: true,
-          },
-          {
-            type: 'localeDropdown',
-            position: 'right',
-          },
-        ],
-      },
-      footer: {
-        style: "dark",
-        copyright: `Copyright © ${new Date().getFullYear()} KagariSoft. Built with Docusaurus.`,
-      },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
-    }),
+
+  themes: ["@docusaurus/theme-live-codeblock"],
+  themeConfig: {
+    colorMode: {
+      defaultMode: "dark",
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+    },
+
+    navbar: {
+      title: "KagariSoft",
+      // logo: {
+      //   alt: "KagariSoft",
+      //   src: "img/logo.svg",
+      // },
+      items: [
+        {
+          type: "doc",
+          docId: "intro",
+          position: "left",
+          label: "Get Started",
+        },
+        {
+          type: "docsVersionDropdown",
+          position: "right",
+
+          dropdownActiveClassDisabled: true,
+        },
+        {
+          type: "localeDropdown",
+          position: "right",
+        },
+      ],
+    },
+    footer: {
+      style: "dark",
+      copyright: `Copyright © ${new Date().getFullYear()} KagariSoft. Built with Docusaurus.`,
+    },
+    prism: {
+      theme: lightCodeTheme,
+      darkTheme: darkCodeTheme,
+    },
+  },
 };
 
 module.exports = config;
