@@ -82,6 +82,13 @@ const config = {
           type: "localeDropdown",
           position: "right",
         },
+        {
+          href: 'https://github.com/KagariSoft/KagariCSS',
+          position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
+          label: 'GitHub',
+        },
       ],
     },
     footer: {
