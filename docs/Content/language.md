@@ -40,3 +40,4 @@ Also, if the site is intended to be entirely in Japanese, the `lang` attribute l
 * `span`
 * `small`
 * `textarea`
+* `button`
