@@ -65,3 +65,11 @@
 .dark__bg{
   background-color: #2f66ce;
 }
+.tabs__item--active{
+  background-color: #2f66ce;
+  Color: #fff;
+}
+
+span{
+  padding: 0px!important;
+}

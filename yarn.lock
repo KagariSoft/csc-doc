@@ -1433,6 +1433,15 @@
     "@types/react" "*"
     prop-types "^15.6.2"
 
+"@docusaurus/remark-plugin-npm2yarn@^2.0.0-beta.20":
+  version "2.0.0-beta.20"
+  resolved "https://registry.yarnpkg.com/@docusaurus/remark-plugin-npm2yarn/-/remark-plugin-npm2yarn-2.0.0-beta.20.tgz#4c0d6721b53efbcaf772c69f117115becc1122c3"
+  integrity sha512-kMys0puRJ6iNx5XFZyll6BnbglfmJVqWHgwQLR7OGBw190dYNi1xH85Mi7dOjogrZO5k/gYk6MOo2xvivUd4rQ==
+  dependencies:
+    npm-to-yarn "^1.0.1"
+    tslib "^2.4.0"
+    unist-util-visit "^2.0.3"
+
 "@docusaurus/theme-classic@2.0.0-beta.20":
   version "2.0.0-beta.20"
   resolved "https://registry.yarnpkg.com/@docusaurus/theme-classic/-/theme-classic-2.0.0-beta.20.tgz#c4c7712c2b35c5654433228729f92ec73e6c598e"
@@ -4967,6 +4976,11 @@ jsonfile@^6.0.1:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
+kagaristyle@^1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/kagaristyle/-/kagaristyle-1.0.11.tgz#14c53a9ccf0f047525b2d47332c6dfc0798ac29a"
+  integrity sha512-G1yYb8qRjAVCwEXaCNEB8yWixVGZbNkC/mwBOYC06UwatIvsJ3sRf9qoN91iuHWqWz4A5Qug4ASvBBkCess7pQ==
+
 keyv@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/keyv/-/keyv-3.1.0.tgz#ecc228486f69991e49e9476485a5be1e8fc5c4d9"
@@ -5486,6 +5500,11 @@ npm-run-path@^4.0.1:
   integrity sha512-S48WzZW777zhNIrn7gxOlISNAqi9ZC/uQFnRdbeIHhZhCA6UqpkOT8T1G7BvfdgP4Er8gF4sUbaS0i7QvIfCWw==
   dependencies:
     path-key "^3.0.0"
+
+npm-to-yarn@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/npm-to-yarn/-/npm-to-yarn-1.0.1.tgz#6cdb95114c4ff0be50a7a2381d4d16131a5f52df"
+  integrity sha512-bp8T8oNMfLW+N/fE0itFfSu7RReytwhqNd9skbkfHfzGYC+5CCdzS2HnaXz6JiG4AlK2eA0qlT6NJN1SoFvcWQ==
 
 nprogress@^0.2.0:
   version "0.2.0"

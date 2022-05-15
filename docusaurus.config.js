@@ -35,6 +35,9 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           lastVersion: "current",
+          remarkPlugins: [
+            [require('@docusaurus/remark-plugin-npm2yarn'), {sync: true}],
+          ],
           versions: {
             current: {
               label: "Current",
@@ -64,8 +67,8 @@ const config = {
       // },
       items: [
         {
-          type: "doc",
-          docId: "intro",
+          activeBaseRegex: 'docs/(Getting started|Components|Content|next|v1|v2|v3|v4)',
+          to: "docs/Getting started/intro",
           position: "left",
           label: "Get Started",
         },

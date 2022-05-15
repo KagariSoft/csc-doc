@@ -1,3 +1,7 @@
+---
+title: Typography
+---
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/KagariSoft/KagariCSS@latest/dist/css/common.min.css"/>
 
 ## Fonts

@@ -5,6 +5,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -15,7 +16,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="/docs/Getting started/intro">
             Get Started
           </Link>
         </div>
