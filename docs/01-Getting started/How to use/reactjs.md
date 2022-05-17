@@ -12,10 +12,10 @@ function App() {
   return (
     <>
         <button>Default</button>
-        <button className="kg__btn kg__btn-primary">Primary</button>
-        <button className="kg__btn kg__btn-success">Success</button>
-        <button className="kg__btn kg__btn-warning">Warning</button>
-        <button className="kg__btn kg__btn-danger">Danger</button>
+        <button className="kg-primary">Primary</button>
+        <button className="kg-success">Success</button>
+        <button className="kg-warning">Warning</button>
+        <button className="kg-danger">Danger</button>
     </>
   );
 }
