@@ -21,6 +21,12 @@ title: Buttons
 <button class="kg-danger">Danger</button>
 ```
 
+## Link buttons
+
+```html
+<a class="kg__button" href="#">Link Button</a>
+```
+
 ## Disabled state
 
 <div class="example">
