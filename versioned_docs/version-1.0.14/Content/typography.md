@@ -2,7 +2,8 @@
 title: Typography
 ---
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/KagariSoft/KagariCSS@latest/dist/css/common.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/KagariSoft/KagariCSS@1.0.14/dist/css/common.min.css"/>
+
 
 ## Fonts
 Currently, only 1 typeface is used for the Japanese language and 2 for the global language.

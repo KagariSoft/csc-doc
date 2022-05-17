@@ -38,6 +38,5 @@ Also, if the site is intended to be entirely in Japanese, the `lang` attribute l
 * `h6`
 * `a`
 * `span`
-* `small`
 * `textarea`
 * `button`

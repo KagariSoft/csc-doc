@@ -36,7 +36,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           lastVersion: "current",
           remarkPlugins: [
-            [require('@docusaurus/remark-plugin-npm2yarn'), {sync: true}],
+            [require("@docusaurus/remark-plugin-npm2yarn"), { sync: true }],
           ],
           versions: {
             current: {
@@ -67,7 +67,8 @@ const config = {
       // },
       items: [
         {
-          activeBaseRegex: 'docs/(Getting started|Components|Content|next|v1|v2|v3|v4)',
+          activeBaseRegex:
+            "docs/(Getting started|Components|Content|next|v1|v2|v3|v4)",
           to: "docs/Getting started/intro",
           position: "left",
           label: "Get Started",
@@ -75,7 +76,9 @@ const config = {
         {
           type: "docsVersionDropdown",
           position: "right",
-
+          
+          lastVersion: "current",
+          dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
           dropdownActiveClassDisabled: true,
         },
         {
@@ -83,11 +86,11 @@ const config = {
           position: "right",
         },
         {
-          href: 'https://github.com/KagariSoft/KagariCSS',
-          position: 'right',
-          className: 'header-github-link',
-          'aria-label': 'GitHub repository',
-          label: 'GitHub',
+          href: "https://github.com/KagariSoft/KagariCSS",
+          position: "right",
+          className: "header-github-link",
+          "aria-label": "GitHub repository",
+          label: "GitHub",
         },
       ],
     },
