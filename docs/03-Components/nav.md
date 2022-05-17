@@ -2,7 +2,7 @@
 title: NavBar
 ---
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/kagaristyle@1.1.0-0/dist/css/common.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/kagaristyle@1.1.1/dist/css/common.min.css"/>
 
 
 <div class="example">
