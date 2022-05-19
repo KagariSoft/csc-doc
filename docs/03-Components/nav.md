@@ -10,7 +10,7 @@ title: NavBar
 </div>
 
 ```html
-<header>
+<header class="kg__header kg-light">
     <nav class="kg__nav kg-space__between kg-container">
         <ul>
             <li><a href="#">Home</a></li>
@@ -29,7 +29,7 @@ title: NavBar
 ## Left and Right nav items
 
 ```html
-<header>
+<header class="kg__header kg-light">
     <nav class="kg__nav kg-space__between">
         <ul>
             <li><a href="#">Home</a></li>
@@ -48,7 +48,7 @@ title: NavBar
 ## Container style
 
 ```html
-<header>
+<header class="kg__header kg-light">
     <nav class="kg__nav kg-container">
         <ul>
             <li><a href="#">Home</a></li>
@@ -66,7 +66,7 @@ title: NavBar
 :::
 
 ```html
-<header>
+<header class="kg__header kg-light">
     <nav class="kg__nav kg-container kg-expanded">
         <ul>
             <li><a href="#">Home</a></li>
@@ -81,23 +81,23 @@ title: NavBar
 ## Dark Style
 
 ```html
-<header class="kg-dark">
+<header class="kg__header kg-dark">
     <nav class="kg__nav kg-container">
         <ul>
-            <li><a class="kg-dark" href="#">Home</a></li>
-            <li><a class="kg-dark" href="#">Products</a></li>
-            <li><a class="kg-dark" href="#">Contact</a></li>
-            <li><a class="kg-dark" href="#">About</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
         </ul>
     </nav>
 </header>
 ```
 
-## Sticky
+## Fixed
 
 ```html
-<header class="kg-sticky">
-    <nav class="kg__nav">
+<header class="kg__header kg-light">
+    <nav class="kg__nav kg-fixed">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Products</a></li>
