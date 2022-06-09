@@ -84,10 +84,10 @@ title: NavBar
 <header class="kg-dark">
     <nav class="kg__navbar kg-container">
         <ul>
-            <li><a class="kg-dark" href="#">Home</a></li>
-            <li><a class="kg-dark" href="#">Products</a></li>
-            <li><a class="kg-dark" href="#">Contact</a></li>
-            <li><a class="kg-dark" href="#">About</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
         </ul>
     </nav>
 </header>
