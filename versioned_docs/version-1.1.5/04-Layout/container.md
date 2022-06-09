@@ -2,12 +2,12 @@
 title: Containers
 ---
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/kagaristyle/dist/css/common.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/kagaristyle@1.1.5/dist/css/common.min.css"/>
 
 The default container is `960` pixels wide and has a padding of `15` pixels on the sides. By default, all content will be displayed in the center.
 
 ```html
-<div class="container">
+<div class="kg__container">
     <!-- All content -->
 </div>
 ```
@@ -21,7 +21,7 @@ The default height of the container is set depending on the contents of the cont
 The expanded container occupies 100% of the width and has a padding of `15` pixels on the sides.
 
 ```html
-<div class="container kg-expanded">
+<div class="kg__container kg-expanded">
     <!-- All content -->
 </div>
 ```

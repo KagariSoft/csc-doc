@@ -2,7 +2,7 @@
 title: Buttons
 ---
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/kagaristyle/dist/css/common.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/kagaristyle@1.1.5/dist/css/common.min.css"/>
 
 
 <div class="example">
@@ -24,7 +24,7 @@ title: Buttons
 ## Link buttons
 
 ```html
-<a class="kg__button kg-no__decoration" href="#">Link Button</a>
+<a class="kg__button" href="#">Link Button</a>
 ```
 
 ## Disabled state
