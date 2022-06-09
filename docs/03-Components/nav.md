@@ -5,7 +5,7 @@ title: NavBar
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/kagaristyle/dist/css/common.min.css"/>
 
 ```html
-<header>
+<header class="kg__header">
     <nav class="kg__navbar kg-space__between kg-container">
         <ul>
             <li><a href="#">Home</a></li>
@@ -24,7 +24,7 @@ title: NavBar
 ## Left and Right nav items
 
 ```html
-<header>
+<header class="kg__header">
     <nav class="kg__navbar kg-space__between">
         <ul>
             <li><a href="#">Home</a></li>
@@ -43,7 +43,7 @@ title: NavBar
 ## Container style
 
 ```html
-<header>
+<header class="kg__header">
     <nav class="kg__navbar kg-container">
         <ul>
             <li><a href="#">Home</a></li>
@@ -61,7 +61,7 @@ title: NavBar
 :::
 
 ```html
-<header>
+<header class="kg__header">
     <nav class="kg__navbar kg-container kg-expanded">
         <ul>
             <li><a href="#">Home</a></li>
@@ -76,7 +76,7 @@ title: NavBar
 ## Dark Style
 
 ```html
-<header class="kg-dark">
+<header class="kg__header kg-dark">
     <nav class="kg__navbar kg-container">
         <ul>
             <li><a href="#">Home</a></li>
