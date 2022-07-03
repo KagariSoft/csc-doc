@@ -2,7 +2,7 @@
 title: Language
 ---
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/kagaristyle/dist/css/common.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@kagarisoft/csc/dist/css/common.min.css"/>
 
 
 One of the most important options of this framework is the possibility of using the `lang` attribute, this attribute allows changing the style of the text depending on the language.
