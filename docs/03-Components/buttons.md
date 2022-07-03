@@ -2,23 +2,23 @@
 title: Buttons
 ---
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/kagaristyle/dist/css/common.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@kagarisoft/csc/dist/css/common.min.css"/>
 
 
 <div class="example">
-    <button>Default</button>
-    <button class="kg-primary">Primary</button>
-    <button class="kg-success">Success</button>
-    <button class="kg-warning">Warning</button>
-    <button class="kg-danger">Danger</button>
+    <button class="kg__button">Default</button>
+    <button class="kg__button kg-primary">Primary</button>
+    <button class="kg__button kg-success">Success</button>
+    <button class="kg__button kg-warning">Warning</button>
+    <button class="kg__button kg-danger">Danger</button>
 </div>
 
 ```html
-<button>Default</button>
-<button class="kg-primary">Primary</button>
-<button class="kg-success">Success</button>
-<button class="kg-warning">Warning</button>
-<button class="kg-danger">Danger</button>
+<button class="kg__button">Default</button>
+<button class="kg__button kg-primary">Primary</button>
+<button class="kg__button kg-success">Success</button>
+<button class="kg__button kg-warning">Warning</button>
+<button class="kg__button kg-danger">Danger</button>
 ```
 
 ## Link buttons
@@ -30,13 +30,13 @@ title: Buttons
 ## Disabled state
 
 <div class="example">
-    <button disabled>Default</button>
-    <button class="kg-primary" disabled>Primary</button>
+    <button class="kg__button" disabled>Default</button>
+    <button class="kg__button kg-primary" disabled>Primary</button>
 </div>
 
 ```html
-<button button disabled>Default</button>
-<button class="kg-primary" disabled>Primary</button>
+<button class="kg__button" disabled>Default</button>
+<button class="kg__button kg-primary" disabled>Primary</button>
 ```
 
 ## Size state
@@ -44,39 +44,19 @@ title: Buttons
 This adjusts the width in percentages of the button
 
 <div class="example">
-    <button>Default</button>
-    <button class="kg-primary kg-20">Primary</button>
-    <button class="kg-success kg-30">Success</button>
-    <button class="kg-warning kg-50">Warning</button>
-    <button class="kg-danger kg-100">Danger</button>
+    <button class="kg__button">Default</button>
+    <button class="kg__button kg-primary kg-20">Primary</button>
+    <button class="kg__button kg-success kg-30">Success</button>
+    <button class="kg__button kg-warning kg-50">Warning</button>
+    <button class="kg__button kg-danger kg-100">Danger</button>
 </div>
 
 ```html
-<button>Default</button>
-<button class="kg-primary kg-20">Primary</button>
-<button class="kg-success kg-30">Success</button>
-<button class="kg-warning kg-50">Warning</button>
-<button class="kg-danger kg-100">Danger</button>
-```
-
-## Block
-
-By default the buttons are set to `inline-block`.
-
-<div class="example_inblock">
-    <button class="kg-block">Default</button>
-    <button class="kg-primary kg-block">Primary</button>
-    <button class="kg-success kg-block">Success</button>
-    <button class="kg-warning kg-block">Warning</button>
-    <button class="kg-danger kg-block">Danger</button>
-</div>
-
-```html
-<button class="kg-block">Default</button>
-<button class="kg-primary kg-block">Primary</button>
-<button class="kg-success kg-block">Success</button>
-<button class="kg-warning kg-block">Warning</button>
-<button class="kg-danger kg-block">Danger</button>
+<button class="kg__button">Default</button>
+<button class="kg__button kg-primary kg-20">Primary</button>
+<button class="kg__button kg-success kg-30">Success</button>
+<button class="kg__button kg-warning kg-50">Warning</button>
+<button class="kg__button kg-danger kg-100">Danger</button>
 ```
 
 ### Ampersand modification list
