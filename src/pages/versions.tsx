@@ -137,7 +137,7 @@
                        </Link>
                      </td>
                      <td>
-                       <Link href={`https://github.com/KagariSoft/KagariCSS/releases/tag/v${version.name}`}>
+                       <Link href={`https://github.com/KagariSoft/csc/releases/tag/v${version.name}`}>
                          <ReleaseNotesLabel />
                        </Link>
                      </td>
