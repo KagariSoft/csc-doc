@@ -9,10 +9,12 @@ If you want to use this framework in react/nextjs, you can use @kagarisoft/csc-r
 :::
 
 ```jsx
-import React from 'react';
-import { Button } "@kagarisoft/csc-react";
+import {Button} from '@kagarisoft/csc-react'
+```
 
-function App() {
+```jsx live
+
+function Home() {
   return (
     <>
         <Button label="Default" />
@@ -21,7 +23,6 @@ function App() {
   );
 }
 
-export default App;
 ```
 
 :::info

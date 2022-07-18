@@ -1623,6 +1623,18 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
+"@kagarisoft/csc-react@latest":
+  version "1.2.13"
+  resolved "https://registry.yarnpkg.com/@kagarisoft/csc-react/-/csc-react-1.2.13.tgz#9b2d78281802b348ed856a5bd6126b87e27b2c5d"
+  integrity sha512-0bAVVutfHewUK5/8b/OKbQ1F3OlN1ZYCwi6ypeGetxKiM2SqHUZ3qgrQcZN0wBnmEoPhr/9vJgZZfz0k8m3hDQ==
+
+"@kagarisoft/csc@^1.0.11":
+  version "1.2.10"
+  resolved "https://registry.yarnpkg.com/@kagarisoft/csc/-/csc-1.2.10.tgz#887ecc193bf01054dd954e95a1e96d1434a55598"
+  integrity sha512-B2xbqijGIR2TcWa6lD3CHInTL7MiskUxcO39y+8rsC9p4PtYwaI2F/f6EUhOYOHpgygLjQGD22s9ISiUrH17aw==
+  dependencies:
+    "@kagarisoft/csc-react" latest
+
 "@leichtgewicht/ip-codec@^2.0.1":
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz#b2ac626d6cb9c8718ab459166d4bb405b8ffa78b"
@@ -4975,11 +4987,6 @@ jsonfile@^6.0.1:
     universalify "^2.0.0"
   optionalDependencies:
     graceful-fs "^4.1.6"
-
-kagaristyle@^1.0.11:
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/kagaristyle/-/kagaristyle-1.0.11.tgz#14c53a9ccf0f047525b2d47332c6dfc0798ac29a"
-  integrity sha512-G1yYb8qRjAVCwEXaCNEB8yWixVGZbNkC/mwBOYC06UwatIvsJ3sRf9qoN91iuHWqWz4A5Qug4ASvBBkCess7pQ==
 
 keyv@^3.0.0:
   version "3.1.0"
