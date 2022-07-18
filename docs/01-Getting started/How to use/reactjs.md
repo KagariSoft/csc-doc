@@ -25,5 +25,5 @@ export default App;
 ```
 
 :::info
-  To see the styles of 'styleArg' see [this page](buttons#ampersand-modification-list).
+  To see the styles of 'styleArg' see [this page](https://classstyle.netlify.app/docs/Components/buttons#ampersand-modification-list).
 :::
